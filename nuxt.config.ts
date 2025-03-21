@@ -5,4 +5,5 @@ export default defineNuxtConfig({
   ssr: false,
   pages: true,
   modules: ["@nuxt/ui"],
+  css: ["~/assets/css/main.css"],
 });
