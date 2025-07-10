@@ -25,7 +25,10 @@ export default defineNuxtPlugin(() => {
     },
     features: [
       Ajax,
-      JSErrors,
+      new JSErrors({
+        enabled: true,
+        autoStart: true
+      }),
       Metrics,
       GenericEvents,
       PageViewEvent,
@@ -34,6 +37,10 @@ export default defineNuxtPlugin(() => {
       Spa
     ]
   })
+
+  window.addEventListener('unhandledrejection', (event) => {
+    agent.noticeError(event.reason);
+  });
 
   return {
     provide: {
