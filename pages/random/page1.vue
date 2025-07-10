@@ -1,5 +1,5 @@
 <template>
-    <h1>Skeleton</h1>
+    <h1>page1</h1>
     <UButton to="/skeleton">previous page</UButton>
     <UButton to="/random/page2">next page</UButton>
 </template>
