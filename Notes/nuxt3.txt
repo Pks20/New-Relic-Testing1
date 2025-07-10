@@ -1,0 +1,2 @@
+### In Nuxt 3, the <NuxtPage /> component is a special built-in component that automatically renders the matched page component based on the current route.
+Example : If a file file1 has <NuxtPage /> then all pages with path after file1 will render in place of <NuxtPage />

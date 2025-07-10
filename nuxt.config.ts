@@ -4,6 +4,6 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   ssr: false,
   pages: true,
-  modules: ["@nuxt/ui"],
+  modules: ["@nuxt/ui", "nuxt-lodash", "nuxt-swiper","nuxt-swiper"],
   css: ["~/assets/css/main.css"],
 });

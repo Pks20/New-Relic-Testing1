@@ -1,0 +1,30 @@
+## defineModel()
+--> We can bind the data with custom component in two way direction using v-model or model-value and this value can be received  in component using defineModel.
+
+## const val=val1 || val2 :- It is like ternary operator means if val1 has truthy value then val1 will be assigned to val otherwise val2 will be assigned to val.
+
+## // Logical OR
+const role = user.role || "guest"; // if user.role is falsy, default to "guest"
+
+// Bitwise OR
+const READ = 1;  // 0001
+const WRITE = 2; // 0010
+const EXEC = 4;  // 0100
+
+const permissions = READ | WRITE; // 0001 | 0010 = 0011 → 3
+
+
+### 
+nullish coalescing operator (??):
+?? only falls back if the value is null or undefined (not for 0, false, or '').
+
+|| falls back on any falsy value, including 0, false, '', NaN, null, and undefined.
+
+
+## In an async function:
+
+Returning any value (like data) will automatically wrap it in a resolved Promise.
+
+Throwing an error will automatically wrap it in a rejected Promise.
+
+
