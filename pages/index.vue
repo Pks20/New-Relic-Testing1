@@ -27,18 +27,18 @@
   <!-- <div class="max-w-5xl mx-auto mt-10 grid grid-cols-2 place-content-center">
     <UInput color="error" v-model="value" />
   </div> -->
-  <!-- <div class="flex justify-center mt-10">
+  <div class="flex justify-center mt-10">
     <NuxtuiSelectMenu />
-  </div> -->
+  </div>
   <!-- <div class="flex justify-center mt-10">
     <NuxtuiLodash />
   </div> -->
   <!-- <div class="flex justify-center mt-10">
     <NuxtuiSkeleton />
   </div> -->
-   <div class="flex justify-center mt-10">
+   <!-- <div class="flex justify-center mt-10">
     <ImageRenderImageRotate />
-  </div>
+  </div> -->
 </template>
 <script lang="ts" setup>
 // const value = ref("");
