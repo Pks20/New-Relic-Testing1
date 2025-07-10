@@ -29,6 +29,7 @@
   </div> -->
   <div class="flex justify-center mt-10">
     <NuxtuiSelectMenu />
+    <UButton to="/skeleton">next page</UButton>
   </div>
   <!-- <div class="flex justify-center mt-10">
     <NuxtuiLodash />
