@@ -6,4 +6,10 @@ export default defineNuxtConfig({
   pages: true,
   modules: ["@nuxt/ui", "nuxt-lodash", "nuxt-swiper","nuxt-swiper"],
   css: ["~/assets/css/main.css"],
+  runtimeConfig: {
+    public: {
+      newRelicLicenseKey: process.env.NEW_RELIC_LICENSE_KEY,
+      newRelicAppId: process.env.NEW_RELIC_APP_ID,
+    }
+  }
 });

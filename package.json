@@ -10,6 +10,7 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@newrelic/browser-agent": "^1.293.0",
     "@nuxt/ui": "2.16.0",
     "nuxt": "^3.16.0",
     "nuxt-swiper": "2.0.1",
