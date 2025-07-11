@@ -35,10 +35,6 @@ export default defineNuxtPlugin(() => {
     ]
   })
 
-  window.addEventListener('unhandledrejection', (event) => {
-    agent.noticeError(event.reason);
-  });
-
   return {
     provide: {
       newRelic: agent
