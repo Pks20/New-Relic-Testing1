@@ -25,10 +25,7 @@ export default defineNuxtPlugin(() => {
     },
     features: [
       Ajax,
-      new JSErrors({
-        enabled: true,
-        autoStart: true
-      }),
+      JSErrors,
       Metrics,
       GenericEvents,
       PageViewEvent,
