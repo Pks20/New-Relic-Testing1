@@ -6,6 +6,8 @@
 </template>
 <script lang="ts" setup>
 function callRelic(){
-useNuxtApp().$newRelic.api.log('my log message', {level: 'INFO'});
+useNuxtApp().$newRelic.api.log('my log message',{level:'INFO'});
+console.log('call log api');
+
 }
 </script>
