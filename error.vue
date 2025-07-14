@@ -9,8 +9,8 @@ const props=defineProps<{
   error: NuxtError;
 }>();
 
-useNuxtApp().$newRelic.api.noticeError(String(props.error.message), {
-    path:useRoute().fullPath
+useNuxtApp().$newRelic.api.log(String(props.error.message), {
+    level:'ERROR'
 });
 
 </script>
