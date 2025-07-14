@@ -6,10 +6,6 @@
 </template>
 <script lang="ts" setup>
 function callRelic(){
-useNuxtApp().$newRelic.api.addPageAction('log', {
-  level: 'info',
-  message: 'User clicked checkout',
-  context: 'Cart Page'
-});
+useNuxtApp().$newRelic.api.log('my log message', {level: 'INFO'});
 }
 </script>
